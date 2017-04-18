@@ -1,0 +1,40 @@
+{
+  "name": "spfx-build-url-rewrite",
+  "version": "1.0.0",
+  "description": "SharePoint Framework URL rewrite build tool",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wictorwilen/spfx-build-url-rewrite.git"
+  },
+  "scripts": {},
+  "keywords": [
+    "gulp",
+    "sharepoint",
+    "sharepoint framework",
+    "office365",
+    "spfx"
+  ],
+  "bugs": {
+    "url": "https://github.com/wictorwilen/spfx-build-url-rewrite/issues"
+  },
+  "homepage": "https://github.com/wictorwilen/spfx-build-url-rewrite",
+  "maintainers": [
+    {
+      "name": "Wictor Wilén",
+      "email": "wictor@wictorwilen.se",
+      "url": "http://www.wictorwilen.se"
+    }
+  ],
+  "author": "Wictor Wilén (wictor@wictorwilen.se)",
+  "license": "CC-BY-4.0",
+  "devDependencies": {
+    "@types/dotenv": "^2.0.20",
+    "ts-loader": "~2.0.3",
+    "typescript": "~2.2.2",
+    "webpack": "~2.4.1"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0"
+  }
+}

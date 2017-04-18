@@ -1,0 +1,9 @@
+# Folders
+.vscode
+node_modules
+src
+
+# Files
+.git*
+webpack.config.json
+tsconfig.json 
