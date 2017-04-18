@@ -2,7 +2,7 @@
 
 SharePoint Framework build tool that automatically re-writes URL's in the manifest.
 
-[![npmjs](https://nodei.co/npm/generator-teams.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/spfx-build-url-rewrite)
+[![npmjs](https://nodei.co/npm/spfx-build-url-rewrite.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/spfx-build-url-rewrite)
 
 
 
