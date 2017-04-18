@@ -2,6 +2,10 @@
 
 SharePoint Framework build tool that automatically re-writes URL's in the manifest.
 
+[![npmjs](https://nodei.co/npm/generator-teams.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/spfx-build-url-rewrite)
+
+
+
 ## Why?
 
 For ISV's and SI's the SharePoint Framework has a huge disadvantage in how configuration is handled. It contains hardcoded references to external URL's and hosting location of the bundled SharePoint Framework files. If you are re-using a SharePoint Framework solution for multiple tenants/clients/environments you need to manually modify the configuration files between each build. The **spfx-build-url-rewrite** allows you to rewrite these URL's at build time to build packages targeted to specific tenants/URLs without modifying the SharePoint Framework configuration files.
@@ -30,7 +34,7 @@ Example of `config.json`:
 ```json
  "externals": {
     "sp-init": {
-      "path": "https://wictordev.sharepoint.com/_layouts/15/init.js",
+      "path": "https://contoso.sharepoint.com/_layouts/15/init.js",
       "globalName": "$_global_init"
     },
     "microsoft-ajax": {

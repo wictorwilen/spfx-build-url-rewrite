@@ -1,6 +1,6 @@
 {
   "name": "spfx-build-url-rewrite",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "SharePoint Framework URL rewrite build tool",
   "main": "lib/index.js",
   "repository": {
